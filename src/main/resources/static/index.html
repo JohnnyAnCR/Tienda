@@ -7,17 +7,21 @@ demas etiquetas para la semantica del body-->
         <meta charset="UTF-8">
         <meta name="description" content="Esta pagina contiene etiquetas del tipo html5 y luego enlaces o definicion de estilos css3">
         <meta name="keywords" content="html5, css3, web, fidelitas">
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header id="encabezado"> <!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
-            <h1>TechShop</h1>
+        <header class="header"> <!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
+            <nav class="nav"> <!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu -->
+                <a href='index.html' class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href='ejemplo9.html'>&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href='ejemplo2.html'>&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href='audios.html'>Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href='videos.html'>Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href='iframes.html'>Iframes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href='formulario.html'>Formulario</a></li>
+            </nav>
         </header>
-        <nav id="menu"> <!-- Esta etiqueta es para ilustrarle al browser que posiblemente es un menu -->
-            <a href='ejemplo9.html'>Back</a>
-            <a href='index.html'>Home</a>
-            <a href='ejemplo2.html'>Next</a><br>
-        </nav>
         <aside id="barralateral"> <!-- Etiqueta para indicar que es una barra lateral al final, puede ser a la izquierda o a la derecha y pueden ser varias -->
             <h2> Productos mas vendidos </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dignissim praesent, at platea tortor cursus ridiculus sem orci tincidunt laoreet in, gravida luctus diam blandit ut morbi euismod pulvinar. Molestie ante nec etiam mauris eget et quis convallis felis mattis cras, sapien habitant massa curabitur nunc gravida aliquet eleifend fringilla suscipit semper aptent, vivamus metus tempus nam bibendum taciti magna iaculis sagittis pellentesque. Mollis fames nascetur in tortor nostra lectus montes, tristique dui nunc justo ridiculus imperdiet lacinia diam, sociis sed dictumst nibh sodales fermentum. Ut tincidunt curabitur placerat tristique fames consequat sed volutpat metus laoreet faucibus dis inceptos aliquam fringilla quam, sapien nisi condimentum massa sollicitudin praesent morbi pulvinar conubia auctor egestas ad in gravida convallis.</p>
